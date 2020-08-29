@@ -1,11 +1,17 @@
 # image-gallery
 
-## Project setup
+## 1)Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## 2)Create .env and set variables
+```
+VUE_APP_API_URL=http://interview.agileengine.com
+VUE_APP_API_KEY=23567b218376f79d9415
+```
+
+### 3) Run command for dev server
 ```
 npm run serve
 ```
@@ -14,16 +20,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
